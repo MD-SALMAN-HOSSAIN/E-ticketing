@@ -7,6 +7,12 @@ namespace E_Ticketing
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+
+
+
+
+
+            ////////////////////////
         }
     }
 }
