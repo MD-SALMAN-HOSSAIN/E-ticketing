@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL
+namespace DAL.Models
 {
-    public class Class1
+    class Admin
     {
-
     }
 }
