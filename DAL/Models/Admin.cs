@@ -8,5 +8,6 @@ namespace DAL.Models
 {
     class Admin
     {
+        ////
     }
 }
