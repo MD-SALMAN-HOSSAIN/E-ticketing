@@ -10,9 +10,13 @@ namespace DAL.Models
 {
     internal class Manager
     {
-        
 
+        [Key]
         public string uId { get; set; }
+        
+        [Required]
+        [Key]
+        public string mId { get; set; }
 
         [Required]
         [StringLength(50)]
