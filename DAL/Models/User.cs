@@ -12,24 +12,17 @@ namespace DAL.Models
         public int uID { get; set; }
         [Required]
         [StringLength(30)]
-
+        [Key]
         public string uName { get; set; }
         [Required]
         [StringLength(20)]
-
         public string Password { get; set; }
         [Required]
         [StringLength(30)]
         public string Name { get; set; }
         [Required]
-        [StringLength(20)]
-        public string Email { get; set; }
-        [Required]
-        public int PhoneNum { get; set; }
-        [Required]
-        public DateTime DOB { get; set; }
-        [Required]
-        public string Gender { get; set; }
+        public string Type { get; set; }
+       
         
 
     }
