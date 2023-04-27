@@ -10,7 +10,7 @@ namespace DAL.Models
     public class ticket
     {
         [Key]
-        public int TicketId { get; set; }
+        public int TId { get; set; }
 
         [Required]
         public int UserId { get; set; }

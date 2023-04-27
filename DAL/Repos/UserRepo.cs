@@ -13,27 +13,34 @@ namespace DAL.Repos
     {
         public User Creat(User obj)
         {
-            throw new NotImplementedException();
+            db.Users.Add(obj);
+            if (db.SaveChanges() > 0) return obj;
+            return null;
         }
 
         public bool Delete(string id)
         {
-            throw new NotImplementedException();
+            var ex = Read(id);
+            db.Users.Remove(ex);
+            return db.SaveChanges() > 0;
         }
 
         public List<User> Read()
         {
-            throw new NotImplementedException();
+            return db.Users.ToList();
         }
 
         public User Read(string id)
         {
-            throw new NotImplementedException();
+            return db.Users.Find(id);
         }
 
         public User Update(User obj)
         {
-            throw new NotImplementedException();
+            var ex = Read(obj.uName);
+            db.Entry(ex).CurrentValues.SetValues (obj);
+            if (db.SaveChanges() > 0) return obj;
+            return null;
         }
     }
 

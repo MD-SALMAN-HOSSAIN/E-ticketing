@@ -19,15 +19,15 @@ namespace DAL.Models
         [ForeignKey("user")]
         public string posted_by { get; set; }
       
-        public string date { get; set; }
+        public DateTime  data { get; set; }
 
         public virtual User User { get; set; }
 
-        public virtual ICollection<comment> posts { get; set; }
+        public virtual ICollection<comment> comments { get; set; }
 
         public post()
         {
-            posts = new List<comment>();
+            comments = new List<comment>();
         }
 
     }
