@@ -21,5 +21,8 @@ namespace DAL.Models
 
         public DbSet<ticket> Tickets { get; set; }
         public DbSet<Token> Tokens { get; set; }
+
+        public DbSet<post> posts { get; set; }
+        
     }
 }

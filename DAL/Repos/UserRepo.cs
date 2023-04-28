@@ -9,14 +9,16 @@ using System.Threading.Tasks;
 namespace DAL.Repos
 {
 
-    internal class UserRepo : Repo, Irepo<User, String, User>, IAuth<bool>
+    internal class UserRepo : Repo, Irepo<User, String, User>
     {
-        public bool Authenticate(string username, string password)
-        {
-            var data = db.Users.FirstOrDefault(u => u.Uname.Equals(username) && password.Equals(password));
-            if (data != null) return true;
-            return false;
-        }
+        /* public bool Authenticate(string username, string password)
+         * 
+         * , IAuth<bool>
+         {
+             var data = db.Users.FirstOrDefault(u => u.Uname.Equals(username) && password.Equals(password));
+             if (data != null) return true;
+             return false;
+         }*/
 
         public User Creat(User obj)
         {

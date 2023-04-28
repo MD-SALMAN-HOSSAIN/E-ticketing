@@ -9,10 +9,10 @@ namespace DAL.Repos
 {
     internal class Repo
     {
-        internal dataContext db;
+        internal dbContext db;
 
         internal Repo() { 
-            db ner= new dataContext();
+            db = new dbContext();
         }
     }
 }

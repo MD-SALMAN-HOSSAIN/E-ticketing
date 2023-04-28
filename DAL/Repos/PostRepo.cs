@@ -22,12 +22,12 @@ namespace DAL.Repos
 
         public List<post> Read()
         {
-            return db.post.ToList();
+            return db.posts.ToList();
         }
 
         public post Read(int id)
         {
-            return db.post.Find(id);
+            return db.posts.Find(id);
         }
 
         public bool Update(post obj)

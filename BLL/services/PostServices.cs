@@ -23,6 +23,7 @@ namespace BLL.services
             });
             var mapper = new Mapper(cfg);
             var mapped = mapper.Map<List<PostDTO>>(data);
+            return mapped;
         }
         public static PostDTO Get(int id)
         {

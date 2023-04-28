@@ -1,0 +1,2 @@
+D:\test1\New folder\E-Ticketing\obj\Debug\E-Ticketing.csproj.AssemblyReference.cache
+D:\test1\New folder\E-Ticketing\obj\Debug\E-Ticketing.csproj.CoreCompileInputs.cache
