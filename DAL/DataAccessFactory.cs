@@ -15,12 +15,16 @@ namespace DAL
         {
             return new PostRepo();
         }
-        public static Irepo<Comment, int, bool> CommentData()
+        public static Irepo<comment, int, bool> CommentData()
         {
-            return new CommentRepo();
+            return new commentRepo();
         }
 
         public static Irepo<User, string, User> UserData()
+        {
+            return new UserRepo();
+        }
+        public static IAuth<bool> AuthData()
         {
             return new UserRepo();
         }

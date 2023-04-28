@@ -9,8 +9,15 @@ using System.Threading.Tasks;
 namespace DAL.Repos
 {
 
-    internal class UserRepo : Repo, Irepo<User, String, User>
+    internal class UserRepo : Repo, Irepo<User, String, User>, IAuth<bool>
     {
+        public bool Authenticate(string username, string password)
+        {
+            var data = db.Users.FirstOrDefault(u => u.Uname.Equals(username) && password.Equals(password));
+            if (data != null) return true;
+            return false;
+        }
+
         public User Creat(User obj)
         {
             db.Users.Add(obj);

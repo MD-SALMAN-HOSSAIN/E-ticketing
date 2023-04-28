@@ -11,7 +11,7 @@ namespace BLL.DTOs
         public List<CommentDTO> Comments { get; set; }
         public PostCommentDTO()
         {
-            Comments = new List<CommentDTO>()
+            Comments = new List<CommentDTO>();
         }
     }
 }

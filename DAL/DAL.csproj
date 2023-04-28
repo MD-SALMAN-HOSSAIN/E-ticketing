@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="dbContext.cs" />
+    <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\Irepo.cs" />
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Bookings.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="Models\Manager.cs" />
     <Compile Include="Models\post.cs" />
     <Compile Include="Models\ticket.cs" />
+    <Compile Include="Models\Token.cs" />
     <Compile Include="Models\Transaction.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
