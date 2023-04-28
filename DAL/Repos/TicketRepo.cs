@@ -22,12 +22,12 @@ namespace DAL.Repos
 
         public List<Ticket> Read()
         {
-            throw new NotImplementedException();
+            return db.Tickets.ToList();
         }
 
         public Ticket Read(int id)
         {
-            throw new NotImplementedException();
+            return db.Tickets.Find(id);
         }
 
         public bool Update(Ticket obj)

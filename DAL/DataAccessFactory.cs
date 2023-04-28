@@ -25,7 +25,10 @@ namespace DAL
             return new UserRepo();
         }
 
-      /*  public static IAuth<bool> AuthData()
+      /*  ata aktu  sob gular jonno koiro  as models 
+       * 
+       * 
+       * public static IAuth<bool> AuthData()
         {
             return new UserRepo();
         }

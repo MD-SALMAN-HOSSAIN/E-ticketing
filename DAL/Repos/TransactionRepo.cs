@@ -22,12 +22,12 @@ namespace DAL.Repos
 
         public List<Transaction> Read()
         {
-            throw new NotImplementedException();
+             return db.Transactions.ToList();
         }
 
         public Transaction Read(int id)
         {
-            throw new NotImplementedException();
+            return db.Transactions.Find(id);
         }
 
         public bool Update(Transaction obj)

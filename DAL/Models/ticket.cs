@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    public class ticket
+    public class Ticket
     {
         [Key]
         public int TId { get; set; }

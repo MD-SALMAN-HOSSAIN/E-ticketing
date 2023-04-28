@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    public class Bookings
+    public class Booking
     {
         [Key]
         public int booking_ID { get; set; }
@@ -22,7 +22,7 @@ namespace DAL.Models
         public int payment { get; set; }
 
         public virtual User user { get; set; }
-        public virtual ticket ticket { get; set; }
+        public virtual Ticket ticket { get; set; }
         
     }
 }

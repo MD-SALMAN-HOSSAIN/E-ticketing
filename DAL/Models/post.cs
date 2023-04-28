@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    public class post
+    public class Post
     {
         [Required]
         public int Id { get; set; }
@@ -23,11 +23,11 @@ namespace DAL.Models
 
         public virtual User User { get; set; }
 
-        public virtual ICollection<comment> comments { get; set; }
+        public virtual ICollection<Comment> comments { get; set; }
 
-        public post()
+        public Post()
         {
-            comments = new List<comment>();
+            comments = new List<Comment>();
         }
 
     }
