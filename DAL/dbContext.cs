@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    internal class dataContext : DbContext
+    internal class dbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
 
         public DbSet<Admin> Admins { get; set; }
 
-        public DbSet<Bookings> bookings{ get; set;}
+        public DbSet<Bookings> bookings { get; set; }
 
         public DbSet<Manager> Managers { get; set; }
 
