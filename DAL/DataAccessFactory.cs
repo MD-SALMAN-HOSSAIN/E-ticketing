@@ -28,5 +28,9 @@ namespace DAL
         {
             return new UserRepo();
         }
+        public static Irepo<Token, string, Token> TokenData()
+        {
+            return new TokenRepo();
+        }
     }
 }

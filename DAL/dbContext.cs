@@ -20,5 +20,6 @@ namespace DAL.Models
         public DbSet<Transaction> transactions { get; set; }
 
         public DbSet<ticket> Tickets { get; set; }
+        public DbSet<Token> Tokens { get; set; }
     }
 }

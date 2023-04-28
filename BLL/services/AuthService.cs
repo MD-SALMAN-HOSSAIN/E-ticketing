@@ -11,7 +11,17 @@ namespace BLL.services
     {
         public static bool Authenticate(string uname, string pass)
         {
-            return DataAccessFactory.AuthData().Authenticate( uname , pass);
+            var res= DataAccessFactory.AuthData().Authenticate( uname , pass);
+            if(res)
+            {
+                var token = new Token();
+                token.UserId = uname;
+                token.CreatedAt = DateTime.Now;
+                token.TKey = Guid.NewGuid().ToString();
+                var ret = DataAccessFactory.TokenData().ToString(token);
+                if(ret !=null)
+
+            }
         }
     }
 }

@@ -9,5 +9,6 @@ namespace DAL.Interfaces
     interface IAuth<Ret>
     {
         Ret Authenticate(string username, string password);
+        object Authenticate(string uname, string pass);
     }
 }
