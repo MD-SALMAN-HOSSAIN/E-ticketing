@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\dot net\\New folder\\BLL\\BLL.csproj": {}
+    "E:\\ASP .Net\\Final\\e\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\dot net\\New folder\\BLL\\BLL.csproj": {
+    "E:\\ASP .Net\\Final\\e\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\dot net\\New folder\\BLL\\BLL.csproj",
+        "projectUniqueName": "E:\\ASP .Net\\Final\\e\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\User\\Desktop\\dot net\\New folder\\BLL\\BLL.csproj",
+        "projectPath": "E:\\ASP .Net\\Final\\e\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\dot net\\New folder\\BLL\\obj\\",
+        "outputPath": "E:\\ASP .Net\\Final\\e\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\dot net\\New folder\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\dot net\\New folder\\DAL\\DAL.csproj"
+              "E:\\ASP .Net\\Final\\e\\DAL\\DAL.csproj": {
+                "projectPath": "E:\\ASP .Net\\Final\\e\\DAL\\DAL.csproj"
               }
             }
           }
@@ -57,11 +57,11 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\dot net\\New folder\\DAL\\DAL.csproj": {
+    "E:\\ASP .Net\\Final\\e\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\dot net\\New folder\\DAL\\DAL.csproj",
+        "projectUniqueName": "E:\\ASP .Net\\Final\\e\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\User\\Desktop\\dot net\\New folder\\DAL\\DAL.csproj",
+        "projectPath": "E:\\ASP .Net\\Final\\e\\DAL\\DAL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}

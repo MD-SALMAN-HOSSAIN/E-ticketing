@@ -8,14 +8,10 @@
           "Microsoft.CSharp"
         ],
         "compile": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         },
         "runtime": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         }
       },
       "DAL/1.0.0": {
@@ -35,14 +31,10 @@
           "Microsoft.CSharp"
         ],
         "compile": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         },
         "runtime": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         }
       },
       "DAL/1.0.0": {
@@ -62,14 +54,10 @@
           "Microsoft.CSharp"
         ],
         "compile": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         },
         "runtime": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         }
       },
       "DAL/1.0.0": {
@@ -89,14 +77,10 @@
           "Microsoft.CSharp"
         ],
         "compile": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         },
         "runtime": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         }
       },
       "DAL/1.0.0": {
@@ -145,11 +129,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\dot net\\New folder\\BLL\\BLL.csproj",
+      "projectUniqueName": "E:\\ASP .Net\\Final\\e\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\User\\Desktop\\dot net\\New folder\\BLL\\BLL.csproj",
+      "projectPath": "E:\\ASP .Net\\Final\\e\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\dot net\\New folder\\BLL\\obj\\",
+      "outputPath": "E:\\ASP .Net\\Final\\e\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -166,8 +150,8 @@
       "frameworks": {
         "net472": {
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\dot net\\New folder\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\dot net\\New folder\\DAL\\DAL.csproj"
+            "E:\\ASP .Net\\Final\\e\\DAL\\DAL.csproj": {
+              "projectPath": "E:\\ASP .Net\\Final\\e\\DAL\\DAL.csproj"
             }
           }
         }
