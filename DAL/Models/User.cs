@@ -22,6 +22,9 @@ namespace DAL.Models
         public string Name { get; set; }
         [Required]
         public string Type { get; set; }
+        [Required]
+        public string Email { get; set; }
+
        
         
 

@@ -10,13 +10,18 @@ namespace DAL.Models
     class Admin
     {
         [Key]
-       public string Uname { get; set; }
+        public int AdminId { get; set; }
+        [Required]
+        [StringLength(30)]
+        public string Uname { get; set; }
         [Required]
         [StringLength(30)]
        public string Password { get; set; }
         [Required]
         [StringLength(30)]
         public string Name { get; set; }
+        [Required]
+        public string Email { get; set; }
 
 
     }
