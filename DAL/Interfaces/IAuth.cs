@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Interfaces
 {
-    interface IAuth<Ret>
+    public interface IAuth<Ret>
     {
         Ret Authenticate(string username, string password);
         object Authenticate(string uname, string pass);

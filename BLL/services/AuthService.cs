@@ -1,4 +1,6 @@
-﻿using DAL;
+﻿using AutoMapper;
+using BLL.DTOs;
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,8 +22,16 @@ namespace BLL.services
                 token.TKey = Guid.NewGuid().ToString();
                 var ret = DataAccessFactory.TokenData().ToString(token);
                 if(ret !=null)
+                {
+                    var cfg = new MapperConfiguration(c => {
+                        c.CreateMap<Token, TokenDTO>();
+                    });
+                    var mapper = new Mapper(cfg);
+                    return mapper.Map<TokenDTO>(ret);
+                }
 
             }
+            return null;
         }
     }
 }
