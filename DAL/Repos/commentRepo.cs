@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class commentRepo : Repo, Irepo<comment, int, bool>
+    internal class commentRepo : Repo, Irepo<Comment, int, bool>
     {
-        public bool Creat(comment obj)
+        public bool Creat(Comment obj)
         {
             throw new NotImplementedException();
         }
@@ -20,17 +20,17 @@ namespace DAL.Repos
             throw new NotImplementedException();
         }
 
-        public List<comment> Read()
+        public List<Comment> Read()
         {
             throw new NotImplementedException();
         }
 
-        public comment Read(int id)
+        public Comment Read(int id)
         {
             throw new NotImplementedException();
         }
 
-        public bool Update(comment obj)
+        public bool Update(Comment obj)
         {
             throw new NotImplementedException();
         }

@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class PostRepo : Repo, Irepo<Post, int, bool>
+    internal class AdminRepo : Repo, Irepo<Admin, int, bool>
     {
-        public bool Creat(Post obj)
+        public bool Creat(Admin obj)
         {
             throw new NotImplementedException();
         }
@@ -20,17 +20,17 @@ namespace DAL.Repos
             throw new NotImplementedException();
         }
 
-        public List<Post> Read()
+        public List<Admin> Read()
         {
-            return db.posts.ToList();
+            return db.Admins.ToList();
         }
 
-        public Post Read(int id)
+        public Admin Read(int id)
         {
-            return db.posts.Find(id);
+            return db.Admins.Find(id);
         }
 
-        public bool Update(Post obj)
+        public bool Update(Admin obj)
         {
             throw new NotImplementedException();
         }

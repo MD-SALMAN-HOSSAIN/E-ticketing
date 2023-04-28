@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    public class comment
+    public class Comment
     {
         public int id { get; set; }
         [Required]
@@ -22,7 +22,7 @@ namespace DAL.Models
         [ForeignKey("post")]
         public string postId { get; set; }
 
-        public virtual post post { get; set; } 
+        public virtual Post post { get; set; } 
 
         public virtual User user { get; set; }
 

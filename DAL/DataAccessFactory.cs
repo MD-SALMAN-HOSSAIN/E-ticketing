@@ -11,11 +11,11 @@ namespace DAL
 {
     public class DataAccessFactory
     {
-        public static Irepo<post, int, bool> PostData()
+        public static Irepo<Post, int, bool> PostData()
         {
             return new PostRepo();
         }
-        public static Irepo<comment, int, bool> CommentData()
+        public static Irepo<Comment, int, bool> CommentData()
         {
             return new commentRepo();
         }
@@ -24,11 +24,12 @@ namespace DAL
         {
             return new UserRepo();
         }
+
       /*  public static IAuth<bool> AuthData()
         {
             return new UserRepo();
-        }*/
-       /* public static Irepo<Token, string, Token> TokenData()
+        }
+        public static Irepo<Token, string, Token> TokenData()
         {
             return new TokenRepo();
         }*/

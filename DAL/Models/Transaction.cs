@@ -23,9 +23,9 @@ namespace DAL.Models
         public int user_ID { get; set; }
         [ForeignKey("admin")]
         public int admin_ID { get; set; }
-        public virtual ticket ticket { get; set; }
+        public virtual Ticket ticket { get; set; }
         public virtual Admin admin { get; set; }
-        public virtual Bookings bookings { get; set; }
+        public virtual Booking bookings { get; set; }
         public virtual User user { get; set; }
     }
 }

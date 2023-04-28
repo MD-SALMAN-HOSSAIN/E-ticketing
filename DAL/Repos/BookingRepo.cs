@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class PostRepo : Repo, Irepo<Post, int, bool>
+    public class BookingRepo : Irepo<Booking, int, bool>
     {
-        public bool Creat(Post obj)
+        public bool Creat(Booking obj)
         {
             throw new NotImplementedException();
         }
@@ -20,17 +20,17 @@ namespace DAL.Repos
             throw new NotImplementedException();
         }
 
-        public List<Post> Read()
+        public List<Booking> Read()
         {
-            return db.posts.ToList();
+            return new List<Booking>();
         }
 
-        public Post Read(int id)
+        public Booking Read(int id)
         {
-            return db.posts.Find(id);
+            return db.Bookings.Find(id);
         }
 
-        public bool Update(Post obj)
+        public bool Update(Booking obj)
         {
             throw new NotImplementedException();
         }

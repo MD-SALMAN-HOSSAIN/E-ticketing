@@ -30,7 +30,7 @@ namespace BLL.services
             var data = DataAccessFactory.PostData().Read(id);
             var cfg = new MapperConfiguration(c =>
             {
-                c.CreateMap<post, PostDTO>();
+                c.CreateMap<Post, PostDTO>();
             });
             var mapper = new Mapper(cfg);
             var mapped = mapper.Map<PostDTO>(data);
@@ -41,8 +41,8 @@ namespace BLL.services
             var data = DataAccessFactory.PostData().Read(id);
             var cfg = new MapperConfiguration(c =>
              {
-                 c.CreateMap<post, PostCommentDTO>();
-                 c.CreateMap<comment, CommentDTO>();
+                 c.CreateMap<Post, PostCommentDTO>();
+                 c.CreateMap<Comment, CommentDTO>();
              });
             var mapper = new Mapper(cfg);
             var mapped = mapper.Map<PostCommentDTO>(data);
