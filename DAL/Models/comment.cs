@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    internal class comment
+    public class comment
     {
         public int id { get; set; }
         [Required]

@@ -54,11 +54,13 @@
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="Interfaces\Irepo.cs" />
     <Compile Include="Models\Admin.cs" />
+    <Compile Include="Models\Bookings.cs" />
     <Compile Include="Models\comment.cs" />
     <Compile Include="Models\Manager.cs" />
     <Compile Include="Models\post.cs" />
     <Compile Include="Models\postContext.cs" />
     <Compile Include="Models\ticket.cs" />
+    <Compile Include="Models\Transaction.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\commentRepo.cs" />
