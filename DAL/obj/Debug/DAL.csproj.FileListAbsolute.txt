@@ -28,3 +28,9 @@ C:\Users\User\Source\Repos\E-ticketing\DAL\obj\Debug\DAL.csproj.AssemblyReferenc
 C:\Users\User\Source\Repos\E-ticketing\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\User\Source\Repos\E-ticketing\DAL\obj\Debug\DAL.dll
 C:\Users\User\Source\Repos\E-ticketing\DAL\obj\Debug\DAL.pdb
+C:\Users\User\Source\Repos\E-ticketing\DAL\bin\Debug\DAL.dll.config
+C:\Users\User\Source\Repos\E-ticketing\DAL\bin\Debug\DAL.dll
+C:\Users\User\Source\Repos\E-ticketing\DAL\bin\Debug\DAL.pdb
+C:\Users\User\Source\Repos\E-ticketing\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Source\Repos\E-ticketing\DAL\bin\Debug\EntityFramework.dll
+C:\Users\User\Source\Repos\E-ticketing\DAL\obj\Debug\DAL.csproj.CopyComplete
