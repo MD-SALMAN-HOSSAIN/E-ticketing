@@ -24,3 +24,7 @@ D:\test1\New folder\DAL\bin\Debug\DAL.pdb
 D:\test1\New folder\DAL\bin\Debug\EntityFramework.SqlServer.dll
 D:\test1\New folder\DAL\bin\Debug\EntityFramework.dll
 D:\test1\New folder\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\User\Source\Repos\E-ticketing\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\E-ticketing\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\E-ticketing\DAL\obj\Debug\DAL.dll
+C:\Users\User\Source\Repos\E-ticketing\DAL\obj\Debug\DAL.pdb

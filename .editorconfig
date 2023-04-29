@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0006: Metadata file 'C:\Users\User\Source\Repos\E-ticketing\BLL\bin\Debug\BLL.dll' could not be found
+dotnet_diagnostic.CS0006.severity = warning

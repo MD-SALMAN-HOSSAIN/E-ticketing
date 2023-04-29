@@ -322,11 +322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\test1\\New folder\\BLL\\BLL.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "D:\\test1\\New folder\\BLL\\BLL.csproj",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\test1\\New folder\\BLL\\obj\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -343,8 +343,8 @@
       "frameworks": {
         "net472": {
           "projectReferences": {
-            "D:\\test1\\New folder\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\test1\\New folder\\DAL\\DAL.csproj"
+            "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj"
             }
           }
         }

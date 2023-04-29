@@ -1,2 +1,4 @@
 D:\test1\New folder\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 D:\test1\New folder\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\E-ticketing\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\E-ticketing\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache

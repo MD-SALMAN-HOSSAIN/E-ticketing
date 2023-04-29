@@ -184,11 +184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\test1\\New folder\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\test1\\New folder\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\test1\\New folder\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
