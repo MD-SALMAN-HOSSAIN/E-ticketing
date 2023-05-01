@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj": {}
+    "C:\\Users\\User\\source\\repos\\E-ticketing\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj": {
+    "C:\\Users\\User\\source\\repos\\E-ticketing\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\E-ticketing\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\E-ticketing\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\E-ticketing\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj"
+              "C:\\Users\\User\\source\\repos\\E-ticketing\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\E-ticketing\\DAL\\DAL.csproj"
               }
             }
           }
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj": {
+    "C:\\Users\\User\\source\\repos\\E-ticketing\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\E-ticketing\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\E-ticketing\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\E-ticketing\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

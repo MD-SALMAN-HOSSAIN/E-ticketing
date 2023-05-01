@@ -8,24 +8,33 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    class Transaction
+    public class Transaction
     {
         [Key]
         public int trans_ID { get; set; }
         [Required]
         [StringLength(25)]
         public string trans_name { get; set; }
-        [ForeignKey("ticket")]
+        public DateTime trans_date { get; set; }
+        [ForeignKey("Ticket")]
         public int ticket_ID { get; set; }
-        [ForeignKey("bookings")]
+        [ForeignKey("Booking")]
         public int res_ID { get; set; }
-        [ForeignKey("User")]
-        public int user_ID { get; set; }
-        [ForeignKey("admin")]
-        public int admin_ID { get; set; }
-        public virtual Ticket ticket { get; set; }
-        public virtual Admin admin { get; set; }
-        public virtual Booking bookings { get; set; }
-        public virtual User user { get; set; }
+       /* [ForeignKey("User")]
+        public int user_ID { get; set; }*/
+        
+        public virtual Ticket Ticket { get; set; }
+ 
+        public virtual Booking Booking { get; set; }
+        public virtual User User { get; set; }
+        public virtual ICollection<Admin> Admins { get; set; }
+
+        public virtual ICollection<Report> Reports { get; set; }
+
+        public Transaction()
+        {
+            Admins = new List<Admin>();
+            Reports = new List<Report>();
+        }
     }
 }

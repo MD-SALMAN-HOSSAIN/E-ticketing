@@ -13,18 +13,19 @@ namespace DAL.Models
 
         public DbSet<Admin> Admins { get; set; }
 
-        public DbSet<Booking> bookings { get; set; }
+        public DbSet<Booking> Bookings { get; set; }
 
-        public DbSet<Manager> Managers { get; set; }
+        //public DbSet<Manager> Managers { get; set; }
 
         public DbSet<Transaction> transactions { get; set; }
 
         public DbSet<Ticket> Tickets { get; set; }
 
-        public DbSet<Token> Tokens { get; set; }
+     //   public DbSet<Token> Tokens { get; set; }
 
-        public DbSet<Post> posts { get; set; }
+      //  public DbSet<Post> Posts { get; set; }
 
+        public DbSet<Report> Reports { get; set; }
 
 
 

@@ -11,18 +11,24 @@ namespace DAL.Models
     public class Booking
     {
         [Key]
-        public int booking_ID { get; set; }
-        [ForeignKey("user")]
-        public int user_ID { get; set; }
-        [ForeignKey("ticket")]
-        public int ticket_ID { get; set; }
+        public int Booking_ID { get; set; }
+        [ForeignKey("User")]
+        public int User_ID { get; set; }
+        [ForeignKey("Ticket")]
+        public int Ticket_ID { get; set; }
         [Required]
         public DateTime booking_Date { get; set; }
         [Required]
         public int payment { get; set; }
 
-        public virtual User user { get; set; }
-        public virtual Ticket ticket { get; set; }
-        
+        public virtual User User { get; set; }
+        public virtual Ticket Ticket { get; set; }
+        public virtual ICollection<Transaction> Transactions { get; set; }
+
+        public Booking()
+        {
+           
+            Transactions = new List<Transaction>();
+        }
     }
 }

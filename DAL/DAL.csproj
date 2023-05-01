@@ -48,11 +48,17 @@
     <Compile Include="dbContext.cs" />
     <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\Irepo.cs" />
+    <Compile Include="Migrations\202305012147069_First_success.cs" />
+    <Compile Include="Migrations\202305012147069_First_success.designer.cs">
+      <DependentUpon>202305012147069_First_success.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Booking.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Manager.cs" />
     <Compile Include="Models\Post.cs" />
+    <Compile Include="Models\Report.cs" />
     <Compile Include="Models\Ticket.cs" />
     <Compile Include="Models\Token.cs" />
     <Compile Include="Models\Transaction.cs" />
@@ -79,6 +85,11 @@
     <PackageReference Include="EntityFramework">
       <Version>6.4.4</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202305012147069_First_success.resx">
+      <DependentUpon>202305012147069_First_success.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

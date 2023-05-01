@@ -16,15 +16,15 @@ namespace DAL.Models
         [Required]
 
         public DateTime Time { get; set; }
-        [ForeignKey("user")]
+        [ForeignKey("User")]
         public string commentBy { get; set; }
 
-        [ForeignKey("post")]
+        [ForeignKey("Post")]
         public string postId { get; set; }
 
-        public virtual Post post { get; set; } 
+        public virtual Post Post { get; set; } 
 
-        public virtual User user { get; set; }
+        public virtual User User { get; set; }
 
         
     }

@@ -34,3 +34,5 @@ C:\Users\User\Source\Repos\E-ticketing\DAL\bin\Debug\DAL.pdb
 C:\Users\User\Source\Repos\E-ticketing\DAL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\User\Source\Repos\E-ticketing\DAL\bin\Debug\EntityFramework.dll
 C:\Users\User\Source\Repos\E-ticketing\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\User\source\repos\E-ticketing\DAL\obj\Debug\DAL.Migrations.First_success.resources
+C:\Users\User\source\repos\E-ticketing\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

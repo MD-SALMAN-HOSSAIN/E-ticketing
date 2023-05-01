@@ -16,8 +16,8 @@ namespace DAL.Models
         public string title { get; set; }
         [Required]
         public string description { get; set; }
-        [ForeignKey("user")]
-        public string posted_by { get; set; }
+        [ForeignKey("User")]
+        public int posted_by { get; set; }
       
         public DateTime  data { get; set; }
 

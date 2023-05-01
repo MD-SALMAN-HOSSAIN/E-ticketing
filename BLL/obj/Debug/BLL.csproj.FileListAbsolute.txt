@@ -2,3 +2,14 @@ D:\test1\New folder\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 D:\test1\New folder\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 C:\Users\User\Source\Repos\E-ticketing\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 C:\Users\User\Source\Repos\E-ticketing\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\E-ticketing\BLL\bin\Debug\BLL.dll
+C:\Users\User\source\repos\E-ticketing\BLL\bin\Debug\BLL.pdb
+C:\Users\User\source\repos\E-ticketing\BLL\bin\Debug\AutoMapper.dll
+C:\Users\User\source\repos\E-ticketing\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\E-ticketing\BLL\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\E-ticketing\BLL\bin\Debug\DAL.dll
+C:\Users\User\source\repos\E-ticketing\BLL\bin\Debug\DAL.pdb
+C:\Users\User\source\repos\E-ticketing\BLL\bin\Debug\DAL.dll.config
+C:\Users\User\source\repos\E-ticketing\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\User\source\repos\E-ticketing\BLL\obj\Debug\BLL.dll
+C:\Users\User\source\repos\E-ticketing\BLL\obj\Debug\BLL.pdb
