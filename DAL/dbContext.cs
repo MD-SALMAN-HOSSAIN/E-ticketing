@@ -23,7 +23,7 @@ namespace DAL.Models
 
      //   public DbSet<Token> Tokens { get; set; }
 
-      //  public DbSet<Post> Posts { get; set; }
+      public DbSet<Post> Posts { get; set; }
 
         public DbSet<Report> Reports { get; set; }
 

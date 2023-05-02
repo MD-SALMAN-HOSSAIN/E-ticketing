@@ -48,3 +48,15 @@ E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.csproj.CopyComplete
 E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.dll
 E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.pdb
+F:\Project\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\Project\DAL\obj\Debug\DAL.Migrations.First_success.resources
+F:\Project\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+F:\Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\Project\DAL\obj\Debug\DAL.dll
+F:\Project\DAL\obj\Debug\DAL.pdb
+F:\Project\DAL\bin\Debug\DAL.dll.config
+F:\Project\DAL\bin\Debug\DAL.dll
+F:\Project\DAL\bin\Debug\DAL.pdb
+F:\Project\DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Project\DAL\bin\Debug\EntityFramework.dll
+F:\Project\DAL\obj\Debug\DAL.csproj.CopyComplete
