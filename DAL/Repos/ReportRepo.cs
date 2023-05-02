@@ -8,13 +8,11 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class TicketRepo :Repo, Irepo<Ticket, int, bool>
+    internal class ReportRepo : Report, Irepo<Report, int, bool>
     {
-        public bool Creat(Ticket obj)
+        public bool Creat(Report obj)
         {
-            db.Bookings.Add(obj);
-            if (db.SaveChanges() > 0) ;
-            return true;
+            throw new NotImplementedException();
         }
 
         public bool Delete(int id)
@@ -22,17 +20,17 @@ namespace DAL.Repos
             throw new NotImplementedException();
         }
 
-        public List<Ticket> Read()
+        public List<Report> Read()
         {
-            return db.Tickets.ToList();
+            throw new NotImplementedException();
         }
 
-        public Ticket Read(int id)
+        public Report Read(int id)
         {
-            return db.Tickets.Find(id);
+            throw new NotImplementedException();
         }
 
-        public bool Update(Ticket obj)
+        public bool Update(Report obj)
         {
             throw new NotImplementedException();
         }

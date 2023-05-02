@@ -15,7 +15,7 @@ namespace DAL.Models
 
         public DbSet<Booking> Bookings { get; set; }
 
-        //public DbSet<Manager> Managers { get; set; }
+        public DbSet<Manager> Managers { get; set; }
 
         public DbSet<Transaction> transactions { get; set; }
 

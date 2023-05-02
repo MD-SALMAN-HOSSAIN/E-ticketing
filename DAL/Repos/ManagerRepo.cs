@@ -1,4 +1,4 @@
-﻿/*using DAL.Interfaces;
+﻿using DAL.Interfaces;
 using DAL.Models;
 using System;
 using System.Collections.Generic;
@@ -12,12 +12,17 @@ namespace DAL.Repos
     {
         public bool Creat(Manager obj)
         {
-            throw new NotImplementedException();
+            db.Managers.Add(obj);
+                 if (db.SaveChanges() > 0) ;
+            return false;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var ex = Read(id);
+            db.Managers.Remove(ex);
+            return db.SaveChanges() > 0;
+            
         }
 
         public List<Manager> Read()
@@ -32,8 +37,10 @@ namespace DAL.Repos
 
         public bool Update(Manager obj)
         {
-            throw new NotImplementedException();
+            var ex = Read(obj.uId);
+            db.Entry(ex).CurrentValues.SetValues(obj);
+            if (db.SaveChanges() > 0) ;
+            return false;
         }
     }
 }
-*/
