@@ -1,4 +1,4 @@
-﻿/*using DAL.Interfaces;
+﻿using DAL.Interfaces;
 using DAL.Models;
 using System;
 using System.Collections.Generic;
@@ -8,11 +8,13 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class TransactionRepo : Transaction, Irepo<Transaction, int, bool>
+    internal class TransactionRepo :Repo Transaction, Irepo<Transaction, int, bool>
     {
         public bool Creat(Transaction obj)
         {
-            throw new NotImplementedException();
+            db.t.Add(obj);
+            if (db.SaveChanges() > 0) ;
+            return false;
         }
 
         public bool Delete(int id)
@@ -36,4 +38,3 @@ namespace DAL.Repos
         }
     }
 }
-*/

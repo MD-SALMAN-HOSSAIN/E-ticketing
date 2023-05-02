@@ -1,4 +1,4 @@
-﻿/*using DAL.Interfaces;
+﻿using DAL.Interfaces;
 using DAL.Models;
 using System;
 using System.Collections.Generic;
@@ -12,28 +12,34 @@ namespace DAL.Repos
     {
         public bool Creat(Post obj)
         {
-            throw new NotImplementedException();
+            db.Posts.Add(obj);
+            if (db.SaveChanges() > 0) ;
+            return false;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var ex = Read(id);
+            db.Posts.Remove(ex);
+            return db.SaveChanges() > 0;
         }
 
         public List<Post> Read()
         {
-            return db.posts.ToList();
+            return db.Posts.ToList();
         }
 
         public Post Read(int id)
         {
-            return db.posts.Find(id);
+            return db.Posts.Find(id);
         }
 
         public bool Update(Post obj)
         {
-            throw new NotImplementedException();
+            var ex = Read(obj.Id);
+            db.Entry(ex).CurrentValues.SetValues(obj);
+            if (db.SaveChanges() > 0) ;
+            return false;
         }
     }
 }
-*/
