@@ -8,31 +8,38 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class ReportRepo : Report, Irepo<Report, int, bool>
+    internal class ReportRepo : Repo, Irepo<Report, int, bool>
     {
         public bool Creat(Report obj)
         {
-            throw new NotImplementedException();
+            db.Reports.Add(obj);
+            if (db.SaveChanges() > 0) ;
+            return false;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var ex = Read(id);
+            db.Reports.Remove(ex);
+            return db.SaveChanges() > 0;
         }
 
         public List<Report> Read()
         {
-            throw new NotImplementedException();
+            return db.Reports.ToList();
         }
 
         public Report Read(int id)
         {
-            throw new NotImplementedException();
+            return db.Reports.Find(id);
         }
 
         public bool Update(Report obj)
         {
-            throw new NotImplementedException();
+            var ex = Read(obj.ReportId);
+            db.Entry(ex).CurrentValues.SetValues(obj);
+            if (db.SaveChanges() > 0) ;
+            return false;
         }
     }
 }
