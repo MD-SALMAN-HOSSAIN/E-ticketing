@@ -1,20 +1,11 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "KtDxABU2SAi78kVZ8pkpiSupD8GWU1GFgjWPGqtOS7ZFFjxyw4QAGMWEmmwP0TwmAr/s5mccTt3kd6B8O9XGzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ASUS\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
-=======
-  "dgSpecHash": "Z0jkxzRx/QP+gzY9fNpV4RDBUnb4Tq0sXne4i0qUte2JM2XhBVMIh2FHUyYbnY/YD70FrI5+qiE1afcl1cnFeg==",
-  "success": true,
-  "projectFilePath": "F:\\Project\\BLL\\BLL.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Asus\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
->>>>>>> b1be9af03368083c969a113eb42487806c30e52e
   ],
   "logs": []
 }

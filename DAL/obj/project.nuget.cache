@@ -1,18 +1,10 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "p2jbbHAh+Mf/5qwXk56kICBZbe9dxXeCstbI+7WhoK3W43UyxedZcRb/jZ1ps4/4a4WgvyuHZSobbpytYH126Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\ASUS\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
-=======
-  "dgSpecHash": "w85FjvtjyNbxs3Tum75zt89qFFq/YlX+EdG6FZ+Nz5x6yYKS0GNG8BsvFJ+cLccYmdk0N5/uIcBhN9lovg4Axg==",
-  "success": true,
-  "projectFilePath": "F:\\Project\\DAL\\DAL.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Asus\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
->>>>>>> b1be9af03368083c969a113eb42487806c30e52e
   ],
   "logs": []
 }

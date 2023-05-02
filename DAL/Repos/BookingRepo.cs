@@ -8,20 +8,18 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class BookingRepo :Repo,Irepo<Booking, int, bool>
+    public class BookingRepo : Irepo<Booking, int, bool>
     {
         public bool Creat(Booking obj)
         {
             db.Bookings.Add(obj);
             if (db.SaveChanges() > 0) ;
-            return true;
+            return false;
         }
 
         public bool Delete(int id)
         {
-            var ex = Read(id);
-            db.Bookings.Remove(ex);
-            return db.SaveChanges() > 0;
+            throw new NotImplementedException();
         }
 
         public List<Booking> Read()
@@ -36,10 +34,7 @@ namespace DAL.Repos
 
         public bool Update(Booking obj)
         {
-            var ex = Read(obj.Booking_ID);
-            db.Entry(ex).CurrentValues.SetValues(obj);
-            if (db.SaveChanges() > 0) ;
-            return false;
+            throw new NotImplementedException();
         }
     }
 }*/

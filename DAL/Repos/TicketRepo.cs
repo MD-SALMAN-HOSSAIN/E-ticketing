@@ -1,4 +1,4 @@
-﻿using DAL.Interfaces;
+﻿/*using DAL.Interfaces;
 using DAL.Models;
 using System;
 using System.Collections.Generic;
@@ -8,13 +8,11 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class TicketRepo :Repo, Irepo<Ticket, int, bool>
+    internal class TicketRepo : Ticket, Irepo<Ticket, int, bool>
     {
         public bool Creat(Ticket obj)
         {
-            db.Bookings.Add(obj);
-            if (db.SaveChanges() > 0) ;
-            return true;
+            throw new NotImplementedException();
         }
 
         public bool Delete(int id)
@@ -38,3 +36,4 @@ namespace DAL.Repos
         }
     }
 }
+*/

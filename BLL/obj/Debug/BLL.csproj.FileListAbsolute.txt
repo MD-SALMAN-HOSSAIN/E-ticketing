@@ -17,16 +17,3 @@ E:\ASP .Net\E-Ticketing\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 E:\ASP .Net\E-Ticketing\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 E:\ASP .Net\E-Ticketing\BLL\obj\Debug\BLL.dll
 E:\ASP .Net\E-Ticketing\BLL\obj\Debug\BLL.pdb
-F:\Project\BLL\bin\Debug\BLL.dll
-F:\Project\BLL\bin\Debug\BLL.pdb
-F:\Project\BLL\bin\Debug\AutoMapper.dll
-F:\Project\BLL\bin\Debug\EntityFramework.SqlServer.dll
-F:\Project\BLL\bin\Debug\EntityFramework.dll
-F:\Project\BLL\bin\Debug\DAL.dll
-F:\Project\BLL\bin\Debug\DAL.pdb
-F:\Project\BLL\bin\Debug\DAL.dll.config
-F:\Project\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
-F:\Project\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
-F:\Project\BLL\obj\Debug\BLL.csproj.CopyComplete
-F:\Project\BLL\obj\Debug\BLL.dll
-F:\Project\BLL\obj\Debug\BLL.pdb

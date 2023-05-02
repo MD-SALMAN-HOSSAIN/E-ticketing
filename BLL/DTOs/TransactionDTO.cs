@@ -14,7 +14,6 @@ namespace BLL.DTOs
         public int trans_ID { get; set; }
         [Required]
         public string trans_name { get; set; }
-        public DateTime trans_date { get; set; }
 
         public int ticket_ID { get; set; }
      
@@ -23,8 +22,13 @@ namespace BLL.DTOs
         public int user_ID { get; set; }
 
         public int admin_ID { get; set; }
-        
 
-       
+        public virtual Ticket ticket { get; set; }
+
+        public virtual AdminDTO admin { get; set; }
+
+        public virtual Booking bookings { get; set; }
+
+        public virtual User user { get; set; }
     }
 }

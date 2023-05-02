@@ -12,13 +12,13 @@ namespace BLL.DTOs
     internal class BookingDTO
     {
         
-        public int Booking_ID { get; set; }
+        public int booking_ID { get; set; }
 
         [Required]
-        public int User_ID { get; set; }
+        public int user_ID { get; set; }
 
         [Required]
-        public int Ticket_ID { get; set; }
+        public int ticket_ID { get; set; }
 
         public DateTime booking_Date { get; set; }
 
