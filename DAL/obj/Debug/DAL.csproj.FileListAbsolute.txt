@@ -48,3 +48,9 @@ E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.csproj.CopyComplete
 E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.dll
 E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.pdb
+F:\New Project\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\New Project\DAL\obj\Debug\DAL.Migrations.First_success.resources
+F:\New Project\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+F:\New Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\New Project\DAL\obj\Debug\DAL.dll
+F:\New Project\DAL\obj\Debug\DAL.pdb
