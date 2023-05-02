@@ -54,7 +54,6 @@
     <Compile Include="DTOs\TransactionDTO.cs" />
     <Compile Include="DTOs\UserDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="services\AdminService.cs" />
     <Compile Include="services\AuthService.cs" />
     <Compile Include="services\PostServices.cs" />
   </ItemGroup>
