@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ASP .Net\\E-Ticketing\\BLL\\BLL.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "E:\\ASP .Net\\E-Ticketing\\BLL\\BLL.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ASP .Net\\E-Ticketing\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "E:\\ASP .Net\\E-Ticketing\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\ASP .Net\\E-Ticketing\\BLL\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "E:\\ASP .Net\\E-Ticketing\\DAL\\DAL.csproj": {
-                "projectPath": "E:\\ASP .Net\\E-Ticketing\\DAL\\DAL.csproj"
+              "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj"
               }
             }
           }
@@ -57,14 +57,14 @@
         }
       }
     },
-    "E:\\ASP .Net\\E-Ticketing\\DAL\\DAL.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ASP .Net\\E-Ticketing\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "E:\\ASP .Net\\E-Ticketing\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\ASP .Net\\E-Ticketing\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

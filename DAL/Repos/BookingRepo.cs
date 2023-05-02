@@ -1,4 +1,4 @@
-﻿/*using DAL.Interfaces;
+﻿using DAL.Interfaces;
 using DAL.Models;
 using System;
 using System.Collections.Generic;
@@ -12,7 +12,9 @@ namespace DAL.Repos
     {
         public bool Creat(Booking obj)
         {
-            throw new NotImplementedException();
+            db.Bookings.Add(obj);
+            if (db.SaveChanges() > 0) ;
+            return false;
         }
 
         public bool Delete(int id)
@@ -35,4 +37,4 @@ namespace DAL.Repos
             throw new NotImplementedException();
         }
     }
-}*/
+}

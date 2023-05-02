@@ -12,12 +12,17 @@ namespace DAL.Repos
     {
         public bool Creat(Admin obj)
         {
-            throw new NotImplementedException();
+            
+            db.Admins.Add(obj);
+            if (db.SaveChanges() > 0) ;
+            return false;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var ex = Read(id);
+            db.Admins.Remove(ex);
+            return db.SaveChanges() > 0;
         }
 
         public List<Admin> Read()
@@ -32,7 +37,10 @@ namespace DAL.Repos
 
         public bool Update(Admin obj)
         {
-            throw new NotImplementedException();
+           var ex = Read(obj.AdminId);
+            db.Entry(ex).CurrentValues.SetValues(obj);
+            if (db.SaveChanges() > 0) ;
+            return false;
         }
     }
 }
