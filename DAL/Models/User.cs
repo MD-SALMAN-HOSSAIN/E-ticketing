@@ -13,7 +13,7 @@ namespace DAL.Models
         public int uID { get; set; }
         [Required]
         [StringLength(30)]
-        
+
         public string uName { get; set; }
         [Required]
         [StringLength(20)]

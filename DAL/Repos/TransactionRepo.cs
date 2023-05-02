@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
+<<<<<<< HEAD
     internal class TransactionRepo :Repo Transaction, Irepo<Transaction, int, bool>
     {
         public bool Creat(Transaction obj)
@@ -15,26 +16,51 @@ namespace DAL.Repos
             db.t.Add(obj);
             if (db.SaveChanges() > 0) ;
             return false;
+=======
+<<<<<<< HEAD
+    internal class TransactionRepo : Repo, Irepo<Transaction, int, bool>
+=======
+    internal class TransactionRepo :Repo,  Irepo<Transaction, int, bool>
+>>>>>>> 2e212d6f51762b70aaae24ada408d3ec6af041f0
+    {
+        public bool Creat(Transaction obj)
+        {
+            {
+
+                db.transactions.Add(obj);
+                if (db.SaveChanges() > 0) ;
+                return false;
+            }
+>>>>>>> 02e266757bb9270dd015d006ec464820ce3f3552
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var ex = Read(id);
+            db.transactions.Remove(ex);
+            return db.SaveChanges() > 0;
         }
 
         public List<Transaction> Read()
         {
-             return db.Transactions.ToList();
+<<<<<<< HEAD
+             return db.transactions.ToList();
+=======
+            return db.Transactions.ToList();
+>>>>>>> 2e212d6f51762b70aaae24ada408d3ec6af041f0
         }
 
         public Transaction Read(int id)
         {
-            return db.Transactions.Find(id);
+            return db.transactions.Find(id);
         }
 
         public bool Update(Transaction obj)
         {
-            throw new NotImplementedException();
+            var ex = Read(obj.trans_ID);
+            db.Entry(ex).CurrentValues.SetValues(obj);
+            if (db.SaveChanges() > 0) ;
+            return false;
         }
     }
 }

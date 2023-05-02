@@ -8,14 +8,10 @@
           "Microsoft.CSharp"
         ],
         "compile": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         },
         "runtime": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         }
       },
       "EntityFramework/6.4.4": {
@@ -24,20 +20,12 @@
           "System.ComponentModel.DataAnnotations"
         ],
         "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "build": {
           "buildTransitive/EntityFramework.props": {},
@@ -65,14 +53,10 @@
           "Microsoft.CSharp"
         ],
         "compile": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         },
         "runtime": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         }
       },
       "EntityFramework/6.4.4": {
@@ -81,20 +65,12 @@
           "System.ComponentModel.DataAnnotations"
         ],
         "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "build": {
           "buildTransitive/EntityFramework.props": {},
@@ -122,14 +98,10 @@
           "Microsoft.CSharp"
         ],
         "compile": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         },
         "runtime": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         }
       },
       "EntityFramework/6.4.4": {
@@ -138,20 +110,12 @@
           "System.ComponentModel.DataAnnotations"
         ],
         "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "build": {
           "buildTransitive/EntityFramework.props": {},
@@ -179,14 +143,10 @@
           "Microsoft.CSharp"
         ],
         "compile": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         },
         "runtime": {
-          "lib/net461/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/net461/AutoMapper.dll": {}
         }
       },
       "EntityFramework/6.4.4": {
@@ -195,20 +155,12 @@
           "System.ComponentModel.DataAnnotations"
         ],
         "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {
-            "related": ".xml"
-          },
-          "lib/net45/EntityFramework.dll": {
-            "related": ".SqlServer.xml;.xml"
-          }
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
         },
         "build": {
           "buildTransitive/EntityFramework.props": {},
@@ -317,20 +269,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Asus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj",
+      "projectUniqueName": "F:\\New Project\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\BLL\\obj\\",
+      "projectPath": "F:\\New Project\\BLL\\BLL.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "F:\\New Project\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -343,8 +295,8 @@
       "frameworks": {
         "net472": {
           "projectReferences": {
-            "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj"
+            "F:\\New Project\\DAL\\DAL.csproj": {
+              "projectPath": "F:\\New Project\\DAL\\DAL.csproj"
             }
           }
         }

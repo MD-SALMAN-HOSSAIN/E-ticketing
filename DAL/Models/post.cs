@@ -18,8 +18,8 @@ namespace DAL.Models
         public string description { get; set; }
         [ForeignKey("User")]
         public int posted_by { get; set; }
-      
-        public DateTime  data { get; set; }
+
+        public DateTime data { get; set; }
 
         public virtual User User { get; set; }
 

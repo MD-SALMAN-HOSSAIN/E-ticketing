@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    public class BookingRepo : Irepo<Booking, int, bool>
+    internal class BookingRepo : Repo, Irepo<Booking, int, bool>
     {
         public bool Creat(Booking obj)
         {

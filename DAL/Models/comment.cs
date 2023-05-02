@@ -22,10 +22,10 @@ namespace DAL.Models
         [ForeignKey("Post")]
         public string postId { get; set; }
 
-        public virtual Post Post { get; set; } 
+        public virtual Post Post { get; set; }
 
         public virtual User User { get; set; }
 
-        
+
     }
 }

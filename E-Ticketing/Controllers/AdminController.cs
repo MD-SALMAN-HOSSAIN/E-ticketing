@@ -10,5 +10,6 @@ namespace E_Ticketing.Controllers
     public class AdminController : ApiController
     {
 
+
     }
 }
