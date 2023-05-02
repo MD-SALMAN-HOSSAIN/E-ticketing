@@ -36,3 +36,15 @@ C:\Users\User\Source\Repos\E-ticketing\DAL\bin\Debug\EntityFramework.dll
 C:\Users\User\Source\Repos\E-ticketing\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\User\source\repos\E-ticketing\DAL\obj\Debug\DAL.Migrations.First_success.resources
 C:\Users\User\source\repos\E-ticketing\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+E:\ASP .Net\E-Ticketing\DAL\bin\Debug\DAL.dll.config
+E:\ASP .Net\E-Ticketing\DAL\bin\Debug\DAL.dll
+E:\ASP .Net\E-Ticketing\DAL\bin\Debug\DAL.pdb
+E:\ASP .Net\E-Ticketing\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\ASP .Net\E-Ticketing\DAL\bin\Debug\EntityFramework.dll
+E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.Migrations.First_success.resources
+E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.dll
+E:\ASP .Net\E-Ticketing\DAL\obj\Debug\DAL.pdb
