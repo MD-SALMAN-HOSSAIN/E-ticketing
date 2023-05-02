@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BLL.DTOs
 {
-    internal class BookingDTO
+    public class BookingDTO
     {
         
         public int booking_ID { get; set; }

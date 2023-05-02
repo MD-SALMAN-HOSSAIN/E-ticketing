@@ -8,8 +8,23 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+    internal class TransactionRepo :Repo Transaction, Irepo<Transaction, int, bool>
+    {
+        public bool Creat(Transaction obj)
+        {
+            db.t.Add(obj);
+            if (db.SaveChanges() > 0) ;
+            return false;
+=======
+<<<<<<< HEAD
+    internal class TransactionRepo : Repo, Irepo<Transaction, int, bool>
+=======
+>>>>>>> 8d0b4bf4be66c4932fdbdcc61b790d1bd5dd73f8
     internal class TransactionRepo :Repo,  Irepo<Transaction, int, bool>
 
     {
@@ -21,6 +36,7 @@ namespace DAL.Repos
                 if (db.SaveChanges() > 0) ;
                 return false;
             }
+>>>>>>> 02e266757bb9270dd015d006ec464820ce3f3552
         }
 
         public bool Delete(int id)

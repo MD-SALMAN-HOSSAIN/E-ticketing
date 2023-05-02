@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BLL.DTOs
 {
-    internal class TicketDTO
+    public class TicketDTO
     {
         public int TId { get; set; }
 
