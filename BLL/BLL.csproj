@@ -49,6 +49,7 @@
     <Compile Include="DTOs\ManagerDTO.cs" />
     <Compile Include="DTOs\PostCommentDTO.cs" />
     <Compile Include="DTOs\PostDTO.cs" />
+    <Compile Include="DTOs\ReportsDTO.cs" />
     <Compile Include="DTOs\TicketDTO.cs" />
     <Compile Include="DTOs\TokenDTO.cs" />
     <Compile Include="DTOs\TransactionDTO.cs" />
