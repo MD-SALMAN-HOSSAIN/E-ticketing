@@ -15,6 +15,10 @@ namespace DAL
         {
             return new PostRepo();
         }*/
+        public static Irepo<Admin, int, Admin> AdminData()
+        {
+            return new AdminRepo();
+        }
         public static Irepo<Comment, int, bool> CommentData()
         {
             return new commentRepo();
