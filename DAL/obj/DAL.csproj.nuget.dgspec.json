@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "F:\\New Project\\DAL\\DAL.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "F:\\New Project\\DAL\\DAL.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\New Project\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "F:\\New Project\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "F:\\New Project\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\E-ticketing\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

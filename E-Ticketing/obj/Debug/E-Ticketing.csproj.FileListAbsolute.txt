@@ -61,7 +61,6 @@ C:\Users\User\source\repos\E-ticketing\E-Ticketing\bin\System.Net.Http.Formattin
 C:\Users\User\source\repos\E-ticketing\E-Ticketing\bin\System.Web.Http.dll
 C:\Users\User\source\repos\E-ticketing\E-Ticketing\bin\System.Web.Http.WebHost.dll
 C:\Users\User\source\repos\E-ticketing\E-Ticketing\bin\DAL.dll
-C:\Users\User\source\repos\E-ticketing\E-Ticketing\bin\AutoMapper.dll
 C:\Users\User\source\repos\E-ticketing\E-Ticketing\bin\EntityFramework.dll
 C:\Users\User\source\repos\E-ticketing\E-Ticketing\bin\BLL.pdb
 C:\Users\User\source\repos\E-ticketing\E-Ticketing\bin\Newtonsoft.Json.xml

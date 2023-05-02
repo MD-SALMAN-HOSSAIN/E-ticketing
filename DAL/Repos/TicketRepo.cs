@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class TicketRepo : Ticket, Irepo<Ticket, int, bool>
+    internal class TicketRepo :Repo, Irepo<Ticket, int, bool>
     {
         public bool Creat(Ticket obj)
         {

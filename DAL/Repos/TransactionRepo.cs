@@ -8,11 +8,10 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-<<<<<<< HEAD
-    internal class TransactionRepo : Repo, Irepo<Transaction, int, bool>
-=======
+
+
     internal class TransactionRepo :Repo,  Irepo<Transaction, int, bool>
->>>>>>> 2e212d6f51762b70aaae24ada408d3ec6af041f0
+
     {
         public bool Creat(Transaction obj)
         {
@@ -33,11 +32,10 @@ namespace DAL.Repos
 
         public List<Transaction> Read()
         {
-<<<<<<< HEAD
              return db.transactions.ToList();
-=======
-            return db.Transactions.ToList();
->>>>>>> 2e212d6f51762b70aaae24ada408d3ec6af041f0
+
+           
+
         }
 
         public Transaction Read(int id)
