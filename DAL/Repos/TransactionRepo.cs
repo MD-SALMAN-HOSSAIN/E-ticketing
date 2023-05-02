@@ -1,4 +1,4 @@
-﻿/*using DAL.Interfaces;
+﻿using DAL.Interfaces;
 using DAL.Models;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class TransactionRepo : Transaction, Irepo<Transaction, int, bool>
+    internal class TransactionRepo :Repo,  Irepo<Transaction, int, bool>
     {
         public bool Creat(Transaction obj)
         {
@@ -22,7 +22,7 @@ namespace DAL.Repos
 
         public List<Transaction> Read()
         {
-             return db.Transactions.ToList();
+            return db.Transactions.ToList();
         }
 
         public Transaction Read(int id)
@@ -36,4 +36,3 @@ namespace DAL.Repos
         }
     }
 }
-*/

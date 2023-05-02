@@ -1,4 +1,4 @@
-﻿/*using DAL.Interfaces;
+﻿using DAL.Interfaces;
 using DAL.Models;
 using System;
 using System.Collections.Generic;
@@ -36,4 +36,3 @@ namespace DAL.Repos
         }
     }
 }
-*/

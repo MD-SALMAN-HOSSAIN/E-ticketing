@@ -15,6 +15,24 @@ namespace DAL
         {
             return new PostRepo();
         }*/
+        public static Irepo<Admin, int, bool> admindata()
+        {
+            return new AdminRepo();
+        }
+
+        public static Irepo<Booking, int, bool> Bookingdata()
+        {
+            return new BookingRepo();
+        }
+        public static Irepo<Ticket, int, bool> Ticket()
+        {
+            return new TicketRepo();
+        }
+        public static Irepo<Transaction, int, bool> Transaction()
+        {
+            return new TransactionRepo();
+        }
+
         public static Irepo<Comment, int, bool> CommentData()
         {
             return new commentRepo();
@@ -24,6 +42,7 @@ namespace DAL
         {
             return new UserRepo();
         }
+
 
       /*  ata aktu  sob gular jonno koiro  as models 
        * 
