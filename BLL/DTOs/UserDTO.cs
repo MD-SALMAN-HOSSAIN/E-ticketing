@@ -11,16 +11,17 @@ namespace BLL.DTOs
     {
         public int uID { get; set; }
         [Required]
-        [StringLength(30)]
+        
         public string uName { get; set; }
         [Required]
-        [StringLength(20)]
+        
         public string Password { get; set; }
         [Required]
-        [StringLength(30)]
+        
         public string Name { get; set; }
         [Required]
         public string Type { get; set; }
+        public string Email { get; set; }
 
 
 

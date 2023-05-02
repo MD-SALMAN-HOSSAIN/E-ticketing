@@ -8,12 +8,11 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class TransactionRepo : Repo, Irepo<Transaction, int, bool>
-        
+    internal class ReportRepo : Repo, Irepo<Report, int, bool>
     {
-        public bool Creat(Transaction obj)
+        public bool Creat(Report obj)
         {
-            db.transactions.Add(obj);
+            db.Reports.Add(obj);
             if (db.SaveChanges() > 0) ;
             return false;
         }
@@ -21,29 +20,26 @@ namespace DAL.Repos
         public bool Delete(int id)
         {
             var ex = Read(id);
-            db.transactions.Remove(ex);
+            db.Reports.Remove(ex);
             return db.SaveChanges() > 0;
         }
 
-        public List<Transaction> Read()
+        public List<Report> Read()
         {
-            return db.transactions.ToList();
+            return db.Reports.ToList();
         }
 
-        public Transaction Read(int id)
+        public Report Read(int id)
         {
-            return db.transactions.Find(id);
+            return db.Reports.Find(id);
         }
 
-        public bool Update(Transaction obj)
+        public bool Update(Report obj)
         {
-            var ex = Read(obj.trans_ID);
+            var ex = Read(obj.ReportId);
             db.Entry(ex).CurrentValues.SetValues(obj);
-            if (db.SaveChanges() > 0);
+            if (db.SaveChanges() > 0) ;
             return false;
         }
     }
 }
-
-
-

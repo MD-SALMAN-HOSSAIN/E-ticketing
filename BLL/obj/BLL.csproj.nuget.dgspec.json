@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\ASUS\\Source\\Repos\\E-ticketing\\BLL\\BLL.csproj": {}
   },
   "projects": {
@@ -16,6 +17,23 @@
         "skipContentFileWrite": true,
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "F:\\Project\\BLL\\BLL.csproj": {}
+  },
+  "projects": {
+    "F:\\Project\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "F:\\Project\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> b1be9af03368083c969a113eb42487806c30e52e
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +46,13 @@
         "frameworks": {
           "net472": {
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\ASUS\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj": {
                 "projectPath": "C:\\Users\\ASUS\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj"
+=======
+              "F:\\Project\\DAL\\DAL.csproj": {
+                "projectPath": "F:\\Project\\DAL\\DAL.csproj"
+>>>>>>> b1be9af03368083c969a113eb42487806c30e52e
               }
             }
           }
@@ -57,6 +80,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\ASUS\\Source\\Repos\\E-ticketing\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -69,6 +93,20 @@
         "skipContentFileWrite": true,
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "F:\\Project\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Project\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "F:\\Project\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "F:\\Project\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> b1be9af03368083c969a113eb42487806c30e52e
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -29,16 +29,23 @@ namespace DAL
             return new UserRepo();
         }
 
-      /*  ata aktu  sob gular jonno koiro  as models 
-       * 
-       * 
-       * public static IAuth<bool> AuthData()
+        public static Irepo<Admin, int, bool> AdminData()
         {
-            return new UserRepo();
+            return new AdminRepo();
         }
-        public static Irepo<Token, string, Token> TokenData()
-        {
-            return new TokenRepo();
-        }*/
+
+
+
+        /*  ata aktu  sob gular jonno koiro  as models 
+         * 
+         * 
+         * public static IAuth<bool> AuthData()
+          {
+              return new UserRepo();
+          }
+          public static Irepo<Token, string, Token> TokenData()
+          {
+              return new TokenRepo();
+          }*/
     }
 }
