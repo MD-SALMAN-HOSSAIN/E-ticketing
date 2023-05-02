@@ -70,6 +70,7 @@
     <Compile Include="Repos\ManagerRepo.cs" />
     <Compile Include="Repos\PostRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\ReportRepo.cs" />
     <Compile Include="Repos\TicketRepo.cs" />
     <Compile Include="Repos\TokenRepo.cs" />
     <Compile Include="Repos\TransactionRepo.cs" />
